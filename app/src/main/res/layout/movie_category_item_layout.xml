@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Nombre de la categoría -->
+    <TextView
+        android:id="@+id/textViewCategoryName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:padding="4dp"
+        android:textColor="#0E0E0E"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- RecyclerView para los productos dentro de la categoría -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewMovies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="false" />
+
+</LinearLayout>

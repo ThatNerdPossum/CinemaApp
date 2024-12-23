@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "888842337577",
+    "project_id": "pruebtecnica",
+    "storage_bucket": "pruebtecnica.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888842337577:android:8c1c613def80fa6b540b38",
+        "android_client_info": {
+          "package_name": "com.example.mycinema"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsPS2uLj1viG0HpYUlEAHH5gfGGpp_7rc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
